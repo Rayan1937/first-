@@ -1,0 +1,90 @@
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+h1{
+    margin: 0%;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+hr{
+    background-color: goldenrod;
+    width: 10%;
+    border: none;
+    height: 5px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 35%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a:hover{
+    background-color: goldenrod;
+    color: aliceblue;
+}
+
+a {
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: goldenrod ;
+    text-decoration: none;
+}
+
+.grid-div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    border: 4px solid goldenrod;
+}
+
+.droit{
+    width: 50%;
+}
+
+.droit h3, .droit span {
+    color: goldenrod;
+
+}
+
+.droit-row {
+      width: 100%;
+      background-color: goldenrod;
+}
